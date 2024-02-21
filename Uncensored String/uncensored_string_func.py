@@ -1,15 +1,14 @@
-def uncensored_string(testVariable):
-    censoredList = list(testVariable[0])
-    answerList = list(testVariable[1])
+def uncensored_string(test_variable):
+    censored_list = list(test_variable[0])
+    answer_list = list(test_variable[1])
     count = 0
 
-    for indx, i in enumerate(censoredList):
+    for indx, i in enumerate(censored_list):
         if i == "*":
-            censoredList.insert(indx, answerList[count])
-            #censoredList.remove(censoredList[indx + 1])
-            censoredList.remove(i)
+            censored_list.insert(indx, answer_list[count])
+            censored_list.remove(i)
             count += 1
 
-    stringOut = "".join(censoredList)
+    string_out = "".join(censored_list)
 
-    return stringOut
+    return string_out
