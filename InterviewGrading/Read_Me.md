@@ -34,9 +34,6 @@ interview([5, 5, 10, 10, 15, 15, 20], 120) ➞ "disqualified"
 interview([5, 5, 10, 10, 15, 15, 20, 20], 130) ➞ "disqualified"
 # Solved all the questions in their respected time limits but exceeded the total time limit of the interview.
 
-interview([2, 3, 8, 6, 5, 12, 10, 18], 64), 'qualified'
-interview([5, 5, 10, 10, 15, 15, 20], 120), 'disqualified'
-interview([5, 5, 10, 10, 15, 15, 20, 20], 130), 'disqualified'
 interview([5, 5, 10, 10, 15, 20, 50], 160), 'disqualified'
 interview([5, 5, 10, 10, 15, 15, 40], 120), 'disqualified'
 interview([10, 10, 15, 15, 20, 20], 150), 'disqualified'
