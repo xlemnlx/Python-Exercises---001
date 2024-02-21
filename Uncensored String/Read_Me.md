@@ -8,12 +8,6 @@ Example:
 
 ("Wh*r* d*d my v*w*ls g*?", "eeioeo") ➞ "Where did my vowels go?"
 ("abcd", "") ➞ "abcd"
-("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
 ('Ch**s*, Gr*mm*t -- ch**s*', 'eeeoieee') ➞ 'Cheese, Grommit -- cheese' (Works with * at the end)
 ('*l*ph*nt', 'Eea') ➞ 'Elephant' (Works with * at the start)
-
-testOne = ("Wh*r* d*d my v*w*ls g*?", "eeioeo")
-testTwo = ("abcd", "")
-testThree = ("*PP*RC*S*", "UEAE")
-testFour = ('Ch**s*, Gr*mm*t -- ch**s*', 'eeeoieee')
-testFive = ('*l*ph*nt', 'Eea')
+("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"

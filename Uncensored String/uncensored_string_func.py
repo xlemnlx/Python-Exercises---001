@@ -1,4 +1,4 @@
-def UncensoredString(testVariable):
+def uncensored_string(testVariable):
     censoredList = list(testVariable[0])
     answerList = list(testVariable[1])
     count = 0
@@ -12,4 +12,4 @@ def UncensoredString(testVariable):
 
     stringOut = "".join(censoredList)
 
-    print(stringOut)
+    return stringOut
