@@ -2,14 +2,14 @@ import time
 import random
 import os
 
-startTime = time.time()
+start_time = time.time()
 # udpate with the use of os to make the file path cross-platform.
 base_path = os.path.dirname(__file__)
 folder_path = os.path.join(base_path, "Files")
 
 count = 0
 
-for i in range(10):
+for i in range(100):
     rand = random.randint(1, 3)
     if rand % 3 == 0:
         count += 1
@@ -23,4 +23,4 @@ for i in range(10):
             f.write("\nOutput the count number to a new .txt file or to the console.")
 
 print("Successfully created " + str(count) + " files")
-print("--- Program takes %.4f seconds to finished ---" % (time.time() - startTime))
+print(f"--- Program takes {round(time.time() - start_time, 4)} seconds to finished ---")
